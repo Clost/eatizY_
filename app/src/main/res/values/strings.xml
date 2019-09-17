@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Friendly Eats</string>
+    <string name="app_name">EatizY</string>
 
     <string name="value_any_category">All food</string>
     <string name="value_any_city">Anywhere</string>
@@ -126,4 +126,10 @@
         <item>@string/sort_by_popularity</item>
         <item>@string/sort_by_price</item>
     </string-array>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
 </resources>

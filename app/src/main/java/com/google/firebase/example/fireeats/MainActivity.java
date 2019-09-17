@@ -274,7 +274,7 @@ public class MainActivity extends AppCompatActivity implements
                             DocumentSnapshot document = task.getResult();
                             if (!document.exists()) {
                                 String username = FirebaseAuth.getInstance().getCurrentUser().getDisplayName();
-                                User user = new User(username, "Admin");
+                                User user = new User(username, "Client");
                                 uidRef.set(user);
                             }
                         }
@@ -336,7 +336,7 @@ public class MainActivity extends AppCompatActivity implements
         // Sign in with FirebaseUI
         Intent intent = AuthUI.getInstance().createSignInIntentBuilder()
                 .setAvailableProviders(providers)
-                .setLogo(R.drawable.food_1)
+                .setLogo(R.drawable.logo_eatizy)
                 .setTheme(R.style.LoginTheme)
                 .setIsSmartLockEnabled(false)
                 .build();
